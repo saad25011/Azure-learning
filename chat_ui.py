@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 
 # Backend API URL (make sure FastAPI is running)
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "https://mychatapp.azurewebsites.net/chat"
+
 
 st.set_page_config(page_title="LangChain Chatbot", page_icon="🤖")
 st.title("🤖 Chat with LangChain Bot")
